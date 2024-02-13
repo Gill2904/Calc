@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculater</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="containers">
+    <h1 id="heading">CALCULATOR</h1>
+  
+ <div class="container">
+    <input id="result"type="text" class="input" value="" /> 
+   <div class="calculator-keys">
+    
+     <button id="AC"type="button" class="keys" onclick="clearinput()">AC</button>
+     
+     <button id="C"type="button" class="keys" onclick="del()">C</button>
+   
+     <button id="pos-neg" type="button" class="keys" onclick="posneg()">+-</button>
+     
+     <button id="divide"type="button" class="op" value="/" onclick="appendtoinput('/')">/</button>
+   </div>
+   
+    <div class="calculator-keys">
+    
+     <button id="seven"type="button" class="key" value="7" onclick="appendtoinput('7')">7</button>
+     
+     <button id="eight"type="button" class="key" value="8"onclick="appendtoinput('8')">8</button>
+   
+     <button id="nine"type="button" class="key" value="9"onclick="appendtoinput('9')">9</button>
+     
+     <button id="multiply"type="button" class="op" value="x"onclick="appendtoinput('*')">x</button>
+   </div>
+
+   <div class="calculator-keys">
+    
+     <button id="four "type="button" class="key" value="4"onclick="appendtoinput('4')">4</button>
+     
+     <button id="five "type="button" class="key" value="5"onclick="appendtoinput('5')">5</button>
+   
+     <button id="six"type="button" class="key" value="6"onclick="appendtoinput('6')">6</button>
+     
+     <button id="minus"type="button" class="op" value="-"onclick="appendtoinput('-')">-</button>
+   </div>
+ 
+   <div class="calculator-keys">
+    
+     <button id="one"type="button" class="key" value="1"onclick="appendtoinput('1')">1</button>
+     
+     <button id="two"type="button" class="key" value="2"onclick="appendtoinput('2')">2</button>
+   
+     <button id="three"type="button" class="key" value="3"onclick="appendtoinput('3')">3</button>
+     
+     <button id="plus"type="button" class="op" value="+"onclick="appendtoinput('+')">+</button>
+   </div>
+
+   <div class="calculator-keys">
+    
+     <button id="zero"type="button" class="zero" value="0"onclick="appendtoinput('0')">0</button>
+     
+     <button id="point"type="button" class="key" value="."onclick="appendtoinput('.')">.</button>
+   
+     <button id="equal-to"type="button" class="op" onclick="calculateResult()">=</button>
+     
+   </div>
+     
+    
+ 
+   
+   
+   <script src="script.js"></script>
+</body>
+
+</html>

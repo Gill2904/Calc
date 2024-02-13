@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'SF Mono', 'Courier New', monospace ;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background:linear-gradient( #74a7ff, #0056d6);
+}
+.container{
+           align-items: center;
+  justify-content: center;
+  width:90%;
+            margin:20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+            border:none;
+            border-radius: 19px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+.keys{
+  background:linear-gradient(45deg,#d3e2ff,#a7c6ffbb);
+  color:#000000;
+  width:18%;
+  height:50px;
+  padding:10px;
+
+  margin:3px 3px 3px 3px;
+  border:none;
+  border-radius:90px;
+  font-size:20px;
+  cursor:pointer;
+  align-items:center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+.key{background:linear-gradient(45deg,#012f7b,#011d57bb);
+  color:#fff;
+  width:18%;
+  height:50px;
+  padding:10px;
+
+  margin:3px 3px 3px 3px;
+  border:none;
+  border-radius:90px;
+  font-size:20px;
+  cursor:pointer;
+  align-items:center;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+.op{background:linear-gradient(45deg,#ff4015,#e22400bb);
+  color:#ffe2d6;
+  width:28%;
+  height:50px;
+  padding:10px;
+
+  margin:3px 3px 3px 3px;
+  border:none;
+  border-radius:90px;
+  font-size:20px;
+  cursor:pointer;
+  align-items:center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+.zero{  background:linear-gradient(45deg,#012f7b,#011d57bb);
+  color:#ffffff;
+      width:40%;
+      height:50px;
+      padding:10px;
+      margin:4px 4px 4px 4px;
+  border:none;
+  border-radius:90px;
+  font-size:20px;
+  cursor:pointer;
+  align-items:center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+#heading{
+  font-family:'Futura';
+  font-size:45px;
+  align-items:center;
+  text-align:center;
+  margin-bottom:15px;
+  color:#cbf0ff;;
+  }
+#result {
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 10px;
+  width: 94%;
+  height: 50px;
+  border: none;
+  border-radius: 90px;
+  font-size: 30px;
+  text-align: center;
+  color: #012f7bff;
+  background: linear-gradient(45deg, #d3e2ff, #74a7ffbb);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
